@@ -83,9 +83,13 @@ class Emitter():
         
         if type(typ) is IntType:
             return self.emitPUSHICONST(in_, frame)
+        elif type(typ) is FloatType:
+            return self.emitPUSHFCONST(in_, frame) 
         elif type(typ) is StringType:
             frame.push()
-            return self.jvm.emitLDC(in_)
+            return self.jvm.emitLDC("\"" + in_ + "\"")
+        elif type(typ) is BoolType:
+            return self.emitPUSHICONST(1 if in_ is True else 0, frame)
         else:
             raise IllegalOperandException(in_)
 

@@ -20,7 +20,17 @@ class CodeGenerator(Utils):
         return [Symbol("getInt", MType(list(), IntType()), CName(self.libName)),
                     Symbol("putInt", MType([IntType()], VoidType()), CName(self.libName)),
                     Symbol("putIntLn", MType([IntType()], VoidType()), CName(self.libName)),
-                    Symbol("putFloatLn", MType([FloatType()], VoidType()), CName(self.libName))
+
+                    Symbol("getFloat", MType([], FloatType()), CName(self.libName)),
+                    Symbol("putFloat", MType([FloatType()], VoidType()), CName(self.libName)),
+                    Symbol("putFloatLn", MType([FloatType()], VoidType()), CName(self.libName)),
+
+                    Symbol("putBool", MType([BoolType()], VoidType()), CName(self.libName)),
+                    Symbol("putBoolLn", MType([BoolType()], VoidType()), CName(self.libName)),
+
+                    Symbol("putString", MType([StringType()], VoidType()), CName(self.libName)),
+                    Symbol("putStringLn", MType([StringType()], VoidType()), CName(self.libName)),
+                   # Symbol("putLn", MType([], VoidType()), CName(self.libName)),
                     ]
 
     def gen(self, ast, dir_):
@@ -172,9 +182,23 @@ class CodeGenVisitor(BaseVisitor, Utils):
     def visitIntLiteral(self, ast, o):
         #ast: IntLiteral
         #o: Any
-
         ctxt = o
         frame = ctxt.frame
         return self.emit.emitPUSHICONST(ast.value, frame), IntType()
+
+    def visitFloatLiteral(self, ast, o):
+        ctxt = o
+        frame = ctxt.frame
+        return self.emit.emitPUSHFCONST(str(ast.value), frame), FloatType()
+
+    def visitStringLiteral(self, ast, o):
+        ctxt = o
+        frame = ctxt.frame
+        return self.emit.emitPUSHCONST(ast.value, StringType(), frame), StringType()
+    
+    def visitBooleanLiteral(self,ast,o):
+        ctxt = o
+        frame = ctxt.frame
+        return (self.emit.emitPUSHICONST(str(ast.value), frame), BoolType())
 
     

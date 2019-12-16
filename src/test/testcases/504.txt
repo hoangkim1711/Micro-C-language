@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(main),[],VoidType,Block([CallExpr(Id(putFloat),[FloatLiteral(5.1)])]))])

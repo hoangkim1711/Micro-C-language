@@ -168,7 +168,7 @@ class TestCodeGen():
             
 
             f = open(solpath + str(num) + ".txt","w")
-            subprocess.call("java -cp ./lib:. MCClass",shell=True, stdout = f)
+            subprocess.call("java -cp ./lib;. MCClass",shell=True, stdout = f)
             f.close()
         except StaticError as e:
             dest.write(str(e))
