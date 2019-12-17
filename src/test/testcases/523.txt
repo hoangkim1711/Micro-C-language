@@ -1,0 +1,6 @@
+
+            void main() {
+                putBoolLn(true && false);
+                putBoolLn(false && true && true);
+                putBoolLn(false && (false && true));
+                }

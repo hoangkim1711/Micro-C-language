@@ -1,0 +1,6 @@
+
+            void main() {
+                putBool(true);
+                putLn();
+                putInt(1);
+                }

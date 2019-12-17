@@ -1,0 +1,15 @@
+
+            int a,b,c;
+            void main() {
+               a = 0;
+               {
+                    int a;
+                    a = 6;
+                    putIntLn(a);
+                }
+                {
+                    float a;
+                    a = 1;
+                    putFloatLn(a);
+                }
+            }

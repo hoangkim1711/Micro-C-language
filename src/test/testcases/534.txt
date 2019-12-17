@@ -1,0 +1,8 @@
+
+                void main() {
+                    int a;
+                    a = 0;
+                    putIntLn(a);
+                    a =2;
+                    putIntLn(a);
+                    }

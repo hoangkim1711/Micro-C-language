@@ -1,0 +1,4 @@
+
+            void main() {
+                putFloatLn(10.0);
+                }

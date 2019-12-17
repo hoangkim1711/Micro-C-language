@@ -1,0 +1,8 @@
+
+            int a,b,c;
+            void main() {
+                a = b= c = 1;
+                putIntLn(a);
+                putIntLn(b);
+                putIntLn(c);
+                }

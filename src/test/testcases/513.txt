@@ -1,4 +1,3 @@
-
-            void main () {
-                putStringLn("programming");
-            }
+void main() {
+                        putFloat(7.7);
+                    }
