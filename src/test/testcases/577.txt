@@ -1,11 +1,6 @@
 
-            void main () {
-             float a;
-             a = ax(2);
-             putFloat(a);
-            }
-            float ax(int a){
-            if(a==2)
-             return 1.2;
-            return 2.0;
-        }
+            void main() {
+                putIntLn(1-2);
+                putFloatLn(2.5-1.2);
+                putFloatLn(10.5-5);
+                }

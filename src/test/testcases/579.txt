@@ -1,9 +1,6 @@
 
-        void main () {
-         int a;
-         a = 1;
-         test(a);
-        }
-        void test(int a){
-         putInt(a);
-        }
+            void main() {
+                putBoolLn(true || false);
+                putBoolLn(false || true || true);
+                putBoolLn(false || (false || true));
+                }

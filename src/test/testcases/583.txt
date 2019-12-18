@@ -1,19 +1,15 @@
 
-        void main () {
-         int a;
-         a = 2;
-         if(a>5){
-           if(a%2==0)
-             a = a*2;
-           else
-             a = a/2;
-         }
-         else{
-           a = 11;
-           if(a%3==0)
-             a = a*3;
-           else
-             a = a*3/2;
-         }
-         putIntLn(a);
-        }
+            int a;
+            boolean b;
+            string c;
+            float d;
+            void main() {
+                a =1;
+                b = true;
+                c = "Hello world";
+                d = 1.2;
+                putIntLn(a);
+                putBoolLn(b);
+                putStringLn(c);
+                putFloatLn(d);
+                }

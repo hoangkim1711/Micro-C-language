@@ -1,11 +1,6 @@
 
-        void main () {
-         boolean a, b, isTrue;
-         boolean arr[3];
-         a = true;
-         b = !true;
-         arr[0] = !!a;
-         arr[1] = !b;
-         isTrue = arr[0] && arr[1];
-         putBoolLn(isTrue);
-        }
+            void main() {
+                putIntLn(3/2);
+                putFloatLn(3.6/1.2);
+                putFloatLn(6.4/4);
+                }

@@ -1,9 +1,8 @@
 
-            void main () {
-                int a;
-                a = 1;
-                do{
-                    putInt(a);
-                    a=a+1;
-                } while(a<5);
-            }
+            int a,b,c;
+            void main() {
+                a = b= c = 1;
+                putIntLn(a);
+                putIntLn(b);
+                putIntLn(c);
+                }

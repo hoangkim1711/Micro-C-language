@@ -7,32 +7,18 @@
 Label0:
 .var 1 is a I from Label2 to Label1
 Label2:
-.var 2 is b I from Label3 to Label1
-Label3:
-.var 3 is c I from Label4 to Label1
-Label4:
 	iconst_0
-	dup
-	istore_3
-	dup
-	istore_2
-	istore_1
-	iload_1
-	iconst_1
-	iadd
-	dup
-	istore_1
 	istore_1
 	iload_1
 	invokestatic io/putIntLn(I)V
-	iload_2
-	invokestatic io/putIntLn(I)V
-	iload_3
+	iconst_2
+	istore_1
+	iload_1
 	invokestatic io/putIntLn(I)V
 Label1:
 	return
-.limit stack 8
-.limit locals 4
+.limit stack 5
+.limit locals 2
 .end method
 
 .method public <init>()V

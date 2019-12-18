@@ -1,4 +1,2 @@
-10
-6.9
-Hello world
-true
+2
+0

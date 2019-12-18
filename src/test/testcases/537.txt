@@ -1,10 +1,6 @@
 
-            int a;
             void main() {
-                a = 0;
-                {
-                    a = 10;
-                    putIntLn(a);
-                }
-                putIntLn(a);
+                putIntLn(3/2);
+                putFloatLn(3.6/1.2);
+                putFloatLn(6.4/4);
                 }

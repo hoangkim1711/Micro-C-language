@@ -1,12 +1,6 @@
 
-        void main () {
-         int a;
-         a = 2;
-         if(a>1){
-           a = 10;
-         }
-         else{
-           a = 11;
-         }
-         putInt(a);
-        }
+            void main() {
+                putIntLn(-1);
+                putFloatLn(-1.5);
+                putFloatLn(-(10+2.5));
+                }

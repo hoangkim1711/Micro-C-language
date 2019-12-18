@@ -1,15 +1,4 @@
 
-            int a;
-            boolean b;
-            string c;
-            float d;
-            void main() {
-                a =1;
-                b = true;
-                c = "Hello world";
-                d = 1.2;
-                putIntLn(a);
-                putBoolLn(b);
-                putStringLn(c);
-                putFloatLn(d);
-                }
+            void main () {
+                putBool(false);
+            }

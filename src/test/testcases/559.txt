@@ -1,9 +1,1 @@
-float arr[4];
-        void main () {
-         int a, b;
-         boolean isTrue;
-         a = 10;
-         b = 11;
-         isTrue = a > b ;
-         putBoolLn(isTrue);
-        }
+Program([FuncDecl(Id(main),[],VoidType,Block([CallExpr(Id(putFloat),[FloatLiteral(5.1)])]))])

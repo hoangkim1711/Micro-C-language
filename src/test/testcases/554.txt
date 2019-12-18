@@ -1,7 +1,22 @@
-int a,b,c;
-        int arr[3];
-        void main () {
-         arr[0] = arr[1] = arr[2] = 3;
-         b = 10 % arr[0];
-         putIntLn(arr[2]);
-        }
+
+            int a,b,c;
+            void main() {
+                int a;
+                  a = 0;
+                  {
+                      a = 2;
+                      putIntLn(a);
+                      {
+                          a =3;
+                          {
+                           a =4;
+                          }
+                          putIntLn(a);
+                      }
+
+                      {
+                        a =1;
+                      }
+                  }
+                  putIntLn(a);
+            }

@@ -1,11 +1,6 @@
 
             int a;
             void main() {
-                a = 0;
-                {
-                    int a;
-                    a = 2;
-                    putIntLn(a);
+                a =1;
+                putInt(a);
                 }
-                putIntLn(a);
-            }

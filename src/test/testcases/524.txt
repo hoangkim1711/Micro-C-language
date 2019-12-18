@@ -1,6 +1,1 @@
-
-            void main() {
-                putBoolLn(true || false);
-                putBoolLn(false || true || true);
-                putBoolLn(false || (false || true));
-                }
+Program([FuncDecl(Id(main),[],VoidType,Block([CallExpr(Id(putFloat),[FloatLiteral(5.1)])]))])

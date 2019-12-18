@@ -1,6 +1,1 @@
-
-            int a;
-            void main() {
-                a =1;
-                putInt(a);
-                }
+Program([FuncDecl(Id(main),[],VoidType,Block([CallExpr(Id(putString),[StringLiteral(PPL)])]))])

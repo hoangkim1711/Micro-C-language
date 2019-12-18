@@ -1,16 +1,15 @@
-int i,j;
-        void main () {
-         int a,b, iSum;
-         i = 10;
-         {
-           float i;
-           i = 14.3;
-           {
-             int i;
-             i = 19;
-             putInt(i);
-           }
-           putFloat(i);
-         }
-         putInt(i);
-        }
+
+            int a,b,c;
+            void main() {
+               a = 0;
+               {
+                    int a;
+                    a = 6;
+                    putIntLn(a);
+                }
+                {
+                    float a;
+                    a = 1;
+                    putFloatLn(a);
+                }
+            }

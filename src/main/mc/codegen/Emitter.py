@@ -2,7 +2,9 @@ from Utils import *
 from StaticCheck import *
 from StaticError import *
 from MachineCode import JasminCode
+from CodeGenError import *
 import CodeGenerator as cgen
+import functools
 
 class Emitter():
     def __init__(self, filename):
@@ -29,10 +31,17 @@ class Emitter():
         elif typeIn is cgen.ClassType:
             return "L" + inType.cname + ";"
 
-    def getFullType(inType):
+    # Done
+    def getFullType(self, inType):
         typeIn = type(inType)
         if typeIn is IntType:
             return "int"
+        elif typeIn is FloatType:
+            return "float"
+        elif typeIn is BoolType:
+            return "boolean"
+        #elif typeIn is ClassType(i):
+        #    return i
         elif typeIn is StringType:
             return "java/lang/String"
         elif typeIn is VoidType:

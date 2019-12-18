@@ -1,13 +1,8 @@
 
-        void main () {
-         int a, iSum;
-         a = 0;
-         iSum = 0;
-         do{
-         a = a + 1;
-         if(a>17)
-           break;
-         iSum = iSum + a;
-         }while(a<20);
-         putInt(iSum);
-        }
+            int a,b,c;
+            void main() {
+                a = b= c = 69;
+                putIntLn(a - b - (c-10));
+                putFloatLn(b - (a -( c- a - 100.1)));
+                putFloatLn((a - 2.5)- (c - 212.1) - b);
+                }

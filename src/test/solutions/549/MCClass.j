@@ -9,10 +9,9 @@ Label0:
 	iconst_0
 	putstatic MCClass/a I
 Label2:
-.var 1 is a I from Label2 to Label3
-	iconst_2
-	istore_1
-	iload_1
+	bipush 10
+	putstatic MCClass/a I
+	getstatic MCClass/a I
 	invokestatic io/putIntLn(I)V
 Label3:
 	getstatic MCClass/a I
@@ -20,7 +19,7 @@ Label3:
 Label1:
 	return
 .limit stack 5
-.limit locals 2
+.limit locals 1
 .end method
 
 .method public <init>()V

@@ -1,8 +1,6 @@
 
-            int a,b,c;
             void main() {
-                a = b= c = 69;
-                putIntLn(a - b - (c-10));
-                putFloatLn(b - (a -( c- a - 100.1)));
-                putFloatLn((a - 2.5)- (c - 212.1) - b);
+                putIntLn(2*3);
+                putFloatLn(2.5*1.2);
+                putFloatLn(1.5* 10);
                 }

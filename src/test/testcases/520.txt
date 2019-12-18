@@ -1,6 +1,1 @@
-
-            void main() {
-                putBool(true);
-                putLn();
-                putInt(1);
-                }
+void main() {putInt(100);}

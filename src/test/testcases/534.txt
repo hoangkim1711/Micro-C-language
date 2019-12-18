@@ -1,8 +1,15 @@
 
-                void main() {
-                    int a;
-                    a = 0;
-                    putIntLn(a);
-                    a =2;
-                    putIntLn(a);
-                    }
+                    void main() {
+                        int a;
+                        float b;
+                        string c;
+                        boolean d;
+                        a =10;
+                        b =6.9;
+                        c = "Hello world";
+                        d = true;
+                        putIntLn(a);
+                        putFloatLn(b);
+                        putStringLn(c);
+                        putBoolLn(d);
+                        }

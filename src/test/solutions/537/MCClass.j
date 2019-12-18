@@ -1,21 +1,23 @@
 .source MCClass.java
 .class public MCClass
 .super java.lang.Object
-.field static a I
 
 .method public static main([Ljava/lang/String;)V
 .var 0 is args [Ljava/lang/String; from Label0 to Label1
 Label0:
-	iconst_0
-	putstatic MCClass/a I
-Label2:
-	bipush 10
-	putstatic MCClass/a I
-	getstatic MCClass/a I
+	iconst_3
+	iconst_2
+	idiv
 	invokestatic io/putIntLn(I)V
-Label3:
-	getstatic MCClass/a I
-	invokestatic io/putIntLn(I)V
+	ldc 3.6
+	ldc 1.2
+	fdiv
+	invokestatic io/putFloatLn(F)V
+	ldc 6.4
+	iconst_4
+	i2f
+	fdiv
+	invokestatic io/putFloatLn(F)V
 Label1:
 	return
 .limit stack 5

@@ -1,13 +1,8 @@
-int a;
-         float b;
-         float frr[4];
-         void main () {
-          int a;
-          float b;
-          int arr[5];
-         }
-         void funcVoid(int a, string b, int arr[]){
-          int c;
-          float funcFrr[10];
-         }
-         
+
+            int a,b,c;
+            void main() {
+                a = b= c = 69;
+                putIntLn(a - b - (c-10));
+                putFloatLn(b - (a -( c- a - 100.1)));
+                putFloatLn((a - 2.5)- (c - 212.1) - b);
+                }

@@ -1,6 +1,1 @@
-
-            void main() {
-                putIntLn(-1);
-                putFloatLn(-1.5);
-                putFloatLn(-(10+2.5));
-                }
+Program([FuncDecl(Id(main),[],VoidType,Block([CallExpr(Id(putFloatLn),[FloatLiteral(5.1)])]))])

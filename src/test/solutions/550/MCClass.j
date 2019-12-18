@@ -2,8 +2,6 @@
 .class public MCClass
 .super java.lang.Object
 .field static a I
-.field static b I
-.field static c I
 
 .method public static main([Ljava/lang/String;)V
 .var 0 is args [Ljava/lang/String; from Label0 to Label1
@@ -12,22 +10,16 @@ Label0:
 	putstatic MCClass/a I
 Label2:
 .var 1 is a I from Label2 to Label3
-	bipush 6
+	iconst_2
 	istore_1
 	iload_1
 	invokestatic io/putIntLn(I)V
 Label3:
-Label4:
-.var 1 is a F from Label4 to Label5
-	iconst_1
-	i2f
-	fstore_1
-	fload_1
-	invokestatic io/putFloatLn(F)V
-Label5:
+	getstatic MCClass/a I
+	invokestatic io/putIntLn(I)V
 Label1:
 	return
-.limit stack 7
+.limit stack 5
 .limit locals 2
 .end method
 

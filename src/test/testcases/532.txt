@@ -1,10 +1,6 @@
 
-            int a;
-            float b,c;
             void main() {
-                a = 1;
-                b= c = 1.5;
-                putIntLn(a* (10 * (1 +3)));
-                putFloatLn((b* 1.5) * (20*40));
-                putFloatLn((a * 2.5) * (c - 2.1) * b);
+                putIntLn(3/2);
+                putFloatLn(3.6/1.2);
+                putFloatLn(6.4/4);
                 }

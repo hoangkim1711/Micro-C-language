@@ -1,4 +1,6 @@
 
             void main() {
-                putString("Hello world");
+                putBoolLn(true && false);
+                putBoolLn(false && true && true);
+                putBoolLn(false && (false && true));
                 }

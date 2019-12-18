@@ -5,26 +5,25 @@
 .method public static main([Ljava/lang/String;)V
 .var 0 is args [Ljava/lang/String; from Label0 to Label1
 Label0:
-.var 1 is a I from Label2 to Label1
-Label2:
 	iconst_1
-	istore_1
-	iload_1
-	invokestatic MCClass/test(I)V
+	iconst_0
+	ior
+	invokestatic io/putBoolLn(Z)V
+	iconst_0
+	iconst_1
+	ior
+	iconst_1
+	ior
+	invokestatic io/putBoolLn(Z)V
+	iconst_0
+	iconst_0
+	iconst_1
+	ior
+	ior
+	invokestatic io/putBoolLn(Z)V
 Label1:
 	return
-.limit stack 3
-.limit locals 2
-.end method
-
-.method public static test()V
-.var 0 is a I from Label0 to Label1
-Label0:
-	iload_0
-	invokestatic io/putInt(I)V
-Label1:
-	return
-.limit stack 1
+.limit stack 11
 .limit locals 1
 .end method
 

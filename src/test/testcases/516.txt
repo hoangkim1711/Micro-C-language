@@ -1,4 +1,6 @@
 
             void main() {
-                putIntLn(1);
+                putIntLn(-1);
+                putFloatLn(-1.5);
+                putFloatLn(-(10+2.5));
                 }

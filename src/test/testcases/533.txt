@@ -1,10 +1,3 @@
-
-            int a;
-            float b,c;
-            void main() {
-                a = 1;
-                b= c = 1.5;
-                putIntLn(100 / (10 / (1 +3)));
-                putFloatLn((b* 1.5) / (20*40));
-                putFloatLn((a / 2.5) /((c / 2.1) / b));
-                }
+void main() {
+                        putFloat(7.7);
+                    }

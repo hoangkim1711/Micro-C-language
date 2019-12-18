@@ -7,32 +7,32 @@
 Label0:
 .var 1 is a I from Label2 to Label1
 Label2:
-.var 2 is b F from Label3 to Label1
+.var 2 is b I from Label3 to Label1
 Label3:
-.var 3 is c Ljava/lang/String; from Label4 to Label1
+.var 3 is c I from Label4 to Label1
 Label4:
-.var 4 is d Z from Label5 to Label1
-Label5:
-	bipush 10
+	iconst_0
+	dup
+	istore_3
+	dup
+	istore_2
 	istore_1
-	ldc 6.9
-	fstore_2
-	ldc "Hello world"
-	astore_3
+	iload_1
 	iconst_1
-	istore 4
+	iadd
+	dup
+	istore_1
+	istore_1
 	iload_1
 	invokestatic io/putIntLn(I)V
-	fload_2
-	invokestatic io/putFloatLn(F)V
-	aload_3
-	invokestatic io/putStringLn(Ljava/lang/String;)V
-	iload 4
-	invokestatic io/putBoolLn(Z)V
+	iload_2
+	invokestatic io/putIntLn(I)V
+	iload_3
+	invokestatic io/putIntLn(I)V
 Label1:
 	return
-.limit stack 7
-.limit locals 5
+.limit stack 8
+.limit locals 4
 .end method
 
 .method public <init>()V

@@ -1,3 +1,6 @@
-void main() {
-                        putFloat(7.7);
-                    }
+
+            void main() {
+                putIntLn(1-2);
+                putFloatLn(2.5-1.2);
+                putFloatLn(10.5-5);
+                }

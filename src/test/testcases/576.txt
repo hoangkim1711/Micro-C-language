@@ -1,9 +1,6 @@
 
-        void main () {
-         int a;
-         a = 1;
-         if(a>1){
-           a = 10;
-         }
-         putIntLn(a);
-        }
+            void main() {
+                putIntLn(1+2);
+                putFloatLn(1.5+2.5);
+                putFloatLn(1+2.5);
+                }
