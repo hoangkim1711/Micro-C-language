@@ -1,0 +1,11 @@
+
+        void main(){
+            for (x=2;x<5;x=x+1){
+                if (x%2==0) {
+                    print(x);
+                    return x;
+                }
+            }
+            print("foofunc");
+        }
+        

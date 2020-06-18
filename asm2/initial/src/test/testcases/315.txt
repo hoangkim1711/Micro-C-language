@@ -1,0 +1,5 @@
+void foofunco(boolean x, int y[], float z[]) {}
+        int main(){
+            return x+" "+ "a";
+        }
+        

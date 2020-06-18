@@ -1,0 +1,14 @@
+
+        void ham() {
+            int x; x = 0;
+            int i,j;
+            do{
+                x= x+1;
+                for(i = 1*x; i <= 100*x; i= i + 1){
+                    if(i%2==0 && i %3==0)
+                        print(i);
+                }
+            }{}
+            while(x<10);
+        }
+        

@@ -1,0 +1,9 @@
+
+        int[] foofunc(float a[]){
+            return 2;
+        }
+        int main(float a[]){
+            getArray();
+            return 0;
+        }
+        

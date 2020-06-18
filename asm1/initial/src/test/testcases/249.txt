@@ -1,0 +1,10 @@
+
+        void main(){
+            null()[0] = (a >= (b > (c < d)));
+            fooo(a, b, 10)[0] = (a<=((b>=c)>d));
+            yasuo[4] = a >= (b <= (c == (d > e)));
+            i = true <= (false >= false);
+            f = b = c = d = (i <= (true != !false));
+            return;
+        }
+        

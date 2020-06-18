@@ -1,0 +1,10 @@
+
+        int func(int d){
+            int d;
+            d = 2;
+            return d*d;
+        }
+        void main(){
+            func(1);
+        }
+        

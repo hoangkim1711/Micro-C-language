@@ -1,0 +1,7 @@
+int mc_func() {
+            if (true) {
+                {}
+                int a;
+                float b[10];
+            }
+        }

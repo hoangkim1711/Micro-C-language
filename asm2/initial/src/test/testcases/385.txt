@@ -1,0 +1,5 @@
+int mc_function () {
+            boolean a, b;
+            b = true;
+            a = !(!(!b));
+        }

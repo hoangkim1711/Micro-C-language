@@ -1,0 +1,9 @@
+
+        int[] foofunc(float a[]){
+            return 2;
+        }
+        int ham(float a[]){
+            getArray();
+            return 0;
+        }
+        

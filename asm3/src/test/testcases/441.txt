@@ -1,0 +1,9 @@
+
+        void main(){ func(); }
+        int func(){
+            int x;
+            do
+                x=0;
+            while(true);
+        }
+        

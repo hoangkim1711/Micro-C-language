@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(main),[],VoidType,Block([VarDecl(check,BoolType),BinaryOp(=,Id(check),BooleanLiteral(false)),CallExpr(Id(putBoolLn),[Id(check)])]))])

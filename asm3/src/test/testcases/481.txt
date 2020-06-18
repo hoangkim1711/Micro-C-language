@@ -1,0 +1,7 @@
+
+        void main(){ func(); }
+        int func(){
+            int x;
+            x = x * x;
+        }
+        

@@ -1,0 +1,10 @@
+
+        int main() {
+            {a=5;}
+            {
+                for(i=1;i<10;i=i+1) a=9;
+            }
+            float f;
+            int a;
+            a = 1;
+        }

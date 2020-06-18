@@ -1,0 +1,7 @@
+
+        void swap(int a, int b){}          
+        int main()
+        {
+            int m;
+            swap(m, n);                         
+        }

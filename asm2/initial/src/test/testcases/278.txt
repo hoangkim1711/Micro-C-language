@@ -1,0 +1,6 @@
+
+        int main() {
+            int i,j;
+            do continue;
+            while(i==1);
+        }

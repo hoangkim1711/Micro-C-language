@@ -1,0 +1,1 @@
+Not Left Value: BinaryOp(-,ArrayCell(CallExpr(Id(func),[]),IntLiteral(4)),Id(a))

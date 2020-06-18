@@ -1,0 +1,23 @@
+
+        void LietKe(int a[], int dong, int cot)
+        {
+            int flag;
+            for(i = 0; i < dong; i)
+            {
+                flag = 0;
+                for(j = 0; j < cot; j)
+                {
+                    if(a[i] % 2 == 0)
+                    {
+                        flag = 1;
+                        break;
+                    }
+                }
+                if(flag == 1)
+                {
+                    printf("Dong a[%d] co chua so chan ", i); 
+                }	
+            }
+        }
+
+        

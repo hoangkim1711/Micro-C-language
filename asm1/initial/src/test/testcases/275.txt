@@ -1,0 +1,8 @@
+void main() {
+            boolean x;
+            int y;
+            x = true;
+            y = get();
+            if (y > 10) x=!x;
+            funcall(x);
+        }

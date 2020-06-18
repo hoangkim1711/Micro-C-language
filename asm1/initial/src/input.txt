@@ -1,0 +1,8 @@
+void main(){
+            null()[a+b*-c+d] = (!a) || b && !(!c) && d || (!(!e));
+            fooo(a, b, 10)[a*b%c+5] = -a% (-x[0] * -c / d - f[1]);
+            yasuo[c*c*c*d/a/b/-c%-d] = -a / ((b + -c) * (c * -d)) + e;
+            i = -1e2 * -.1 / -f[2] * -9.0;
+            f = b = c = d = -x[0] / -f[a*-b%2];
+            return;
+        }

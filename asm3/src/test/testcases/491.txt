@@ -1,0 +1,9 @@
+
+            void func(int numint, float numfloat){
+                int c;
+                float c; 
+            }
+            void main(){
+                func(1, 2.1);
+            }
+        

@@ -1,0 +1,9 @@
+
+            int a;
+            int func(float b, string b){
+                return a;
+            }
+            void main(){
+                func(a,"Hello");
+            }
+        

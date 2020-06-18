@@ -1,0 +1,11 @@
+
+            int func(int a){
+                return a*a;
+            }
+            void main(){
+                int c, d[5];
+                c = func(10);
+                d[4] = func(5);
+                func(8) = c; 
+            }
+        

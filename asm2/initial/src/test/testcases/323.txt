@@ -1,0 +1,5 @@
+int mc_func() {
+            if (1) {
+                print("Hello Word !!");
+            }
+        }

@@ -1,0 +1,6 @@
+void foofunco(boolean x, int y[], float z[]) {}
+        int mc_function(){
+            continue;
+            return -(x+5/2 -5.2 >= 1.2);
+        }
+        

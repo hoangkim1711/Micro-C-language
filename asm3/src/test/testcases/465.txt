@@ -1,0 +1,13 @@
+
+        void func(){
+            func1();
+        }
+        void func1(){
+            func();
+        }
+        void func2(){
+            func();
+            func1();
+        }
+        void main(){ }
+        

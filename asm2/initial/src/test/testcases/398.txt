@@ -1,0 +1,18 @@
+
+        float main(){
+            for (x=2;x<5;x=x+2){
+                if (x%2==0) {
+                    print("x la so chan");
+                    return x;
+                }
+                else {
+                    for (j=0; j<10;j=j+2){
+                        if(j<=x){
+                            print("j la so nho hon x");
+                        }
+                    }
+                }
+            }
+            print("Hello my func");
+        }
+        

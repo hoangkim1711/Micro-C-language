@@ -1,0 +1,6 @@
+
+        void main(){ func(); }
+        int func(){
+            if(true) 1; 
+            else 1;
+        }

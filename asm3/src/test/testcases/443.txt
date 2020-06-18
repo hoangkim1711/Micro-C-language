@@ -1,0 +1,6 @@
+
+        void main(){ func(2); }
+        int func(int a){
+            a = 1;
+        }
+        

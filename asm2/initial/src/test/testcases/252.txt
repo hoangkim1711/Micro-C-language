@@ -1,0 +1,9 @@
+
+            void print(string tr){}
+            int main(){
+                string tr;
+                tr = "hello word!";
+                print(str);
+                return 0;
+            }
+        

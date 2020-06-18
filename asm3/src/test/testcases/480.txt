@@ -1,0 +1,9 @@
+
+        int func(){
+            for(k; k < 10; k = k + 2){ }
+            return 1;
+        }
+        void main(){
+            func();
+        }
+        

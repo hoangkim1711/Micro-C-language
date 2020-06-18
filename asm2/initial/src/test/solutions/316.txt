@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(foofunco),[VarDecl(x,BoolType),VarDecl(y,ArrayTypePointer(IntType)),VarDecl(z,ArrayTypePointer(FloatType))],VoidType,Block([])),FuncDecl(Id(mc_function),[],IntType,Block([Continue(),Return(UnaryOp(-,BinaryOp(>=,BinaryOp(-,BinaryOp(+,Id(x),BinaryOp(/,IntLiteral(5),IntLiteral(2))),FloatLiteral(5.2)),FloatLiteral(1.2))))]))])

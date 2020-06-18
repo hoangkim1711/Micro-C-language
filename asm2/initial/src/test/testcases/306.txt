@@ -1,0 +1,2 @@
+int mc_function(float x) {}
+        string[] foofunc(int y[]) {}

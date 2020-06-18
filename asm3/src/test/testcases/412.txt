@@ -1,0 +1,11 @@
+
+        int a[10],c;
+        int func(int size, int arr[]){
+            int iNum;
+            a[1]=number;
+        }
+        void main(){
+            int a[1];
+            func(10,a);   
+        }
+        

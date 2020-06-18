@@ -1,0 +1,4 @@
+
+        void main(){ func(1); }
+        int func(int a){ }
+        

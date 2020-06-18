@@ -1,0 +1,24 @@
+
+        int main()
+        {
+            float themang, n;
+            int sochuso;
+
+            do
+            {
+            printf("Nhap n: ");
+            scanf("%ld",n);
+            }while(n < 0 && printf("Loi: n >= 0 !"));
+            sochuso = 0;
+            themang = n;
+
+            if(n == 0)
+                    sochuso = 1;
+            
+            printf("So chu so cua %ld la %d", n, sochuso);
+
+            getch();
+            return 0;
+        }
+
+        

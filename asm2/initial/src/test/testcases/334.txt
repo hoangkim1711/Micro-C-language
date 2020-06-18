@@ -1,0 +1,12 @@
+
+        int foofunc(int a) {
+            int b;
+            b = a;
+            print("ID = ",a);
+            return b;
+        }
+        int ham() {
+            int arr[1];
+            arr[1] = foofunc(arr[0]);
+            }
+        

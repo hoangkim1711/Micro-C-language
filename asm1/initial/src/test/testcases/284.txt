@@ -1,0 +1,11 @@
+
+        int a;
+        int main() {
+            int i;
+            for(i=0;i<=10;i=i+1){
+            do{x=2;}
+            while x=1;
+            if(x=1){x=x+1;}
+            else return;
+            }
+        }

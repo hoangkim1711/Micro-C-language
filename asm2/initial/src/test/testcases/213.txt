@@ -1,0 +1,20 @@
+
+        int[] true(int a[],int b[], int c){
+
+            return a;
+        }
+        float x,y,int[5];
+        string t;
+        void main(){
+            null()[a+b*-c+d] = (!a) || b && !(!c) && d || (!(!e));
+            fooo(a, b, 10)[a*b%c+5] = -a% (-x[0] * -c / d - f[1]);
+            yasuo[c*c*c*d/a/b/-c%-d] = -a / ((b + -c) * (c * -d)) + e;
+            yasuo(5.1e-2) = -1e2 * -.1 / -f[2] * -9.0;
+            f = b = c = d = -x[0] / -f[a*-b%2];
+            return;
+        }
+        boolean m[20];
+        float yasuo(float x){
+            return x*-x
+        }
+        

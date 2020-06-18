@@ -1,0 +1,9 @@
+
+            int[] func(){
+                float b[5];
+                return b;
+            }
+            void main(){
+                func();
+            }
+        

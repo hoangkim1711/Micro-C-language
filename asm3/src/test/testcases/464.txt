@@ -1,0 +1,9 @@
+
+        void func(){
+            func();
+        }
+        void func1(){
+            func();
+        }
+        void main(){ }
+        

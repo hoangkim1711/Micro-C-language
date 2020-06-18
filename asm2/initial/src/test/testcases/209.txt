@@ -1,0 +1,5 @@
+int main () {
+            putIntLn(4);
+            string a;
+            a = "asvb";
+        }

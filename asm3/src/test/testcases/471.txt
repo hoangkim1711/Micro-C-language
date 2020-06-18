@@ -1,0 +1,7 @@
+
+            void main(){
+                float ace;
+                ace = -1.5234;
+                -ace = 1.5234;
+            }
+        

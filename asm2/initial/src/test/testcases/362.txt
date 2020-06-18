@@ -1,0 +1,11 @@
+
+        void myfunction(){
+            do {} while (!true);
+        }
+        
+        int main() {
+            myfunction();
+            getch();
+            return 0;
+        }
+        

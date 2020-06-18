@@ -1,0 +1,10 @@
+
+            int a;
+            float b;
+            void main(){
+                int c;
+                for(a; c = a; c = c + 1){ 
+                    b = b + 1;
+               }
+            }
+        

@@ -1,0 +1,8 @@
+int mc_func() {
+            if (1) {}
+        }
+        void foofunc(int a) {
+            if (a) {
+                a = a + 1;
+            }
+        }

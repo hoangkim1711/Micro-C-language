@@ -1,0 +1,10 @@
+
+            void main(){
+                int a;
+                float b;
+                if(a == 0){
+                    b = b + 1;
+                }
+                if(b) break;
+            }
+        

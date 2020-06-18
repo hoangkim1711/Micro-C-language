@@ -1,0 +1,14 @@
+int main() {
+            int a,b,c,e;
+            e = 9;
+            for(a=1;a<=5;a=a+1)
+             {
+                for(b=0; b ;b= b+1)
+                {
+                    putIntLn(b);
+                }
+                putIntLn(a);
+                e=e-2;
+             }
+        }
+        

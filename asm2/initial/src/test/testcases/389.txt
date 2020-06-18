@@ -1,0 +1,6 @@
+int mc_function () {
+            boolean a, b;
+            a = -10;
+            b = -(-20);
+            print(a+b);
+        }

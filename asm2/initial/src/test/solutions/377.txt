@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(foofunc),[VarDecl(a,StringType)],VoidType,Block([CallExpr(Id(print),[Id(a)])])),FuncDecl(Id(mainfunc),[],IntType,Block([If(BinaryOp(==,UnaryOp(!,Id(a)),UnaryOp(!,Id(b))),Return(CallExpr(Id(foofunc),[StringLiteral(Hello Python3)])))]))])

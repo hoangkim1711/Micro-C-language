@@ -1,0 +1,21 @@
+
+        void main(){
+            int i;
+            do{
+                i=i+1;
+                string _;
+                float a, b,c,intt[5] ;
+                d[5]=12e5;
+                _ = "day la string||124&&^\\";
+                putString(_);
+                c= d[0] * d[1] - d[2];
+                // /*blocasdawe*/
+                /*
+                    comment block
+                */
+                putall(c * i);
+                putall("print string !\n")
+                if(i> 10) break;
+            }while(true);
+        }
+        

@@ -1,0 +1,10 @@
+
+        
+            void main () {
+				boolean check;
+				check = false;
+                putBoolLn(check);
+            }
+
+            
+        

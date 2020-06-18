@@ -1,0 +1,6 @@
+
+            int a,b,c[2],x,y,z;
+            float f,g,h;
+            boolean i,j,k[12];
+            string str,m[1],n[5];
+        

@@ -1,0 +1,4 @@
+ 
+        var m = "Hello word";
+        console.log(m);
+        

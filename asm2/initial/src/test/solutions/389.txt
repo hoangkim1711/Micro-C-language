@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(mc_function),[],IntType,Block([VarDecl(a,BoolType),VarDecl(b,BoolType),BinaryOp(=,Id(a),UnaryOp(-,IntLiteral(10))),BinaryOp(=,Id(b),UnaryOp(-,UnaryOp(-,IntLiteral(20)))),CallExpr(Id(print),[BinaryOp(+,Id(a),Id(b))])]))])

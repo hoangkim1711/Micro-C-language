@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(mc_function),[VarDecl(a,BoolType)],BoolType,Block([If(Id(a),Return(BooleanLiteral(true)),Return(BooleanLiteral(false)))])),FuncDecl(Id(main),[],IntType,Block([CallExpr(Id(print),[CallExpr(Id(foofunc),[UnaryOp(!,CallExpr(Id(foofunc),[BooleanLiteral(true)]))])])]))])

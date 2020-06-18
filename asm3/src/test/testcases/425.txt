@@ -1,0 +1,15 @@
+
+            int main() {
+                int i;
+                int n;
+                do{
+                    n = n - 1;
+                    i = i+1;
+                    if( i ==n )
+                        return i;
+                    else
+                        break;
+                }
+                while(i + n); 
+                }
+        

@@ -1,0 +1,10 @@
+
+        void func(int a){
+            int b;
+            a;
+            c;
+        }
+        void main() {
+               func(1);
+        }
+        

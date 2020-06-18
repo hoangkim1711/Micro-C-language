@@ -1,0 +1,13 @@
+
+            int a;
+            int b;
+            int c;
+            void printArray(int a,int m, int n){
+                for (i=0; i < m ; i = i + 1){
+                    for (i=0;j<n;j=j+1){
+                    }
+                }
+            }
+            int main(){ 
+                printArray(a,b,c);
+            }

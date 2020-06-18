@@ -1,0 +1,15 @@
+ 
+        void main() {
+            boolean x;
+            int y;
+            x = true;
+            y = getInt();
+            if (y > 10)
+                if ( y > 15)
+                    x = !x && (y>20);
+                else
+                    x = x && (y >15 );
+            else x = x && (y > 7);
+            putBoolLn(x);
+        }
+        

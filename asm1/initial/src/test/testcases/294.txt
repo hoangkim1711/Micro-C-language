@@ -1,0 +1,10 @@
+
+            int main(){
+                int i;
+                i = 0;
+                for (i; i = 10; i = i + 1)
+                    print("hello");
+                string a, v, c;
+                v = "sdf";
+            }
+        

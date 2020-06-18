@@ -1,0 +1,16 @@
+
+            int func(){
+                boolean a;
+                if(a){
+                    return 1;
+                }
+                else{
+                    float c;
+                    c = 2.1;
+                    return c;
+                }
+            }
+            void main(){
+                func();
+            }
+        

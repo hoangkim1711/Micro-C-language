@@ -1,0 +1,11 @@
+
+        void main(){
+            for (x=2;x<5;x=x+2){
+                if (x%2==0) {
+                    print("x la so chan");
+                    return x;
+                }
+            }
+            print("Hello! This is main");
+        }
+        

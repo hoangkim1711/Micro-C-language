@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(count),[VarDecl(arr,ArrayTypePointer(StringType))],IntType,Block([Return(CallExpr(Id(len),[Id(arr)]))])),FuncDecl(Id(mc_function),[],IntType,Block([If(BinaryOp(&&,UnaryOp(!,Id(a)),UnaryOp(!,Id(b))),CallExpr(Id(print),[CallExpr(Id(count),[Id(arr)])])),Return(IntLiteral(0))]))])

@@ -1,0 +1,11 @@
+
+            void func22(){}
+            void func(){
+                func22();
+            }
+            void goo(int a, float b){ 
+                func();
+            }
+            void main(){
+            }
+        

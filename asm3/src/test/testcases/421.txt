@@ -1,0 +1,15 @@
+
+            void main(){
+                int a;
+                float b;
+                boolean c;
+                if(c)
+                    b + 1;
+                else
+                    a + 2;
+                if(b)
+                    b + 3;
+                else
+                    b + 4;
+            }
+        

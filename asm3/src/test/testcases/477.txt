@@ -1,0 +1,8 @@
+
+            int func(float b, string b){
+                return 1;
+            }
+            void main(){
+                func(1.1,"Hi");
+            }
+        

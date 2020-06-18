@@ -1,0 +1,11 @@
+
+        void main(){
+            func();
+        }
+        void func(){
+            do{
+                2;
+            } while (true);
+            break;
+        }
+        

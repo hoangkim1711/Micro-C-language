@@ -1,0 +1,9 @@
+
+        int main() {
+            int i,j,arr[4];
+            arr[2] = for(;;){
+                        i = i + 1;
+                        do {} {} break; while(true);
+                        if(i>=1000) break; else continue;
+                    }
+        }

@@ -1,0 +1,7 @@
+ 
+        void Function({}){}
+        int main() {
+            {a=5;}
+            {}
+        }
+        

@@ -1,0 +1,9 @@
+
+            int main(){
+                int a, b, c;
+                a = 1;
+                b = 2;
+                if(a = 1) c = a + b;
+                else c = 0;
+            }
+        

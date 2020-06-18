@@ -1,0 +1,5 @@
+
+            void printArray(){
+                for (i=0;j<n;j=j++){}
+                }
+            

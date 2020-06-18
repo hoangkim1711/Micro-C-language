@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(main),[],ArrayTypePointer(IntType),Block([VarDecl(a,IntType),Dowhile([CallExpr(Id(print),[StringLiteral(Hello Python3)])],BooleanLiteral(true))]))])

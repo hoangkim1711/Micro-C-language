@@ -1,0 +1,6 @@
+void fooo(boolean x, int y[], float z[]) {}
+        int main(){
+            continue;
+            return -(x+5/2 -5.2 >= 1.2);
+        }
+        

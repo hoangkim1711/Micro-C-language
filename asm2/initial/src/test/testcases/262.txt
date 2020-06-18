@@ -1,0 +1,7 @@
+
+            boolean a;
+            float x;
+            int main(){
+                x = 10.2e3;
+            }
+        

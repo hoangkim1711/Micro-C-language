@@ -1,0 +1,7 @@
+boolean mc_function (boolean a){
+            if (a) return true;
+            else return false;
+        }
+        int main () {
+            print(foofunc(!foofunc(true)));
+        }

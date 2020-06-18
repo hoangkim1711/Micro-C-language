@@ -1,0 +1,1 @@
+Type Mismatch In Statement: For(BinaryOp(=,Id(b),IntLiteral(0));Id(b);BinaryOp(=,Id(b),BinaryOp(+,Id(b),IntLiteral(1)));Block([CallExpr(Id(putIntLn),[Id(b)])]))

@@ -1,0 +1,4 @@
+int mc_function() {
+            string a,b,c;
+            a = a + b * c = foofunc(2) +b = arr[a[10]];
+        }

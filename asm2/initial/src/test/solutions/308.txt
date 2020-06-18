@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(foofunc),[VarDecl(check,BoolType)],ArrayTypePointer(StringType),Block([]))])

@@ -1,0 +1,7 @@
+
+        int func(int c, int c){
+            return 1;
+        }
+        void main(){
+        }
+        

@@ -1,0 +1,12 @@
+
+        void main(){
+            int i;
+            putString("nhap i:");
+            i = getInt();
+            int foo(){
+                return 2; 
+            }
+            do{ i = i++;        
+            }while(true);
+        }
+        

@@ -1,0 +1,3 @@
+int mc_function () {
+            return (foofunc(!(a==2)==true));
+        }

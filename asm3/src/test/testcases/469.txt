@@ -1,0 +1,23 @@
+
+            void func1(){}
+            void func22(){}
+            void func(){
+                {
+                    func1();
+                }
+            }
+            void goo(int a, float b){
+                func22();
+                {
+                        func();
+                }
+            }
+            void main(){
+                func1();
+                if(true){
+                    func();
+                }
+                else
+                    func22();
+            }
+        

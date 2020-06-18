@@ -1,0 +1,6 @@
+
+            int func(int a, float b){
+                return b;
+            }
+            void main(){}
+        

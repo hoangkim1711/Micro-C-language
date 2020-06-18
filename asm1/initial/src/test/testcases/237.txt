@@ -1,0 +1,7 @@
+
+        string tr;
+        int main() {
+            int i,j;
+            do break;
+            while(i==1);
+        }

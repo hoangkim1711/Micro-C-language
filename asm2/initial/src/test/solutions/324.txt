@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(mc_func),[],IntType,Block([If(BooleanLiteral(true),Block([Block([]),VarDecl(a,IntType),VarDecl(b,ArrayType(FloatType,10))]))]))])

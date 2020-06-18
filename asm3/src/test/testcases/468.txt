@@ -1,0 +1,7 @@
+
+               void func(int a, float b){ 
+                   func(a,b);
+               }
+               void main(){
+               }
+           

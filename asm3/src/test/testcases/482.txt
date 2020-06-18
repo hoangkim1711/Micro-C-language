@@ -1,0 +1,13 @@
+
+        int number[10];
+        void main(){
+            int ar,b;
+            float fNum;
+            func(1,2,"hihi");
+        }
+        int func(int a, int b, string str){
+            int ar, br;
+        }
+        float numberOne;
+        void func(int a, int c){
+        }

@@ -1,0 +1,4 @@
+int mc_function(float b, boolean c[]) {}
+        string[] foofunc(int a[]) {
+            print("Hello Word !!");
+        }
