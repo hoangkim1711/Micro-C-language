@@ -1,7 +1,6 @@
 # HCMC University of Technology - Principles of Progamming Languages
-# Micro C Language - Author: Dr. Nguyen Hua Phung
-
-Nguyên lý ngôn ngữ lập trình 191
+# Micro C Language - Source: Collector
+(Nguyên lý ngôn ngữ lập trình 191)
 
 ## Assignment 1
 Lexer & Recognizer
